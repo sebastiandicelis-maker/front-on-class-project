@@ -1,0 +1,16 @@
+Token admin (payload {"role":"admin"}): eyJhbGciOiJub25lIn0.eyJyb2xlIjoiYWRtaW4ifQ.
+Token persona (payload {"role":"persona"}): eyJhbGciOiJub25lIn0.eyJyb2xlIjoicGVyc29uYSJ9.
+
+
+CAPACIDAD 8080
+tecnología 8081
+reporte 8082
+bootcamp 8083
+
+MySQL: bootcamp, capacidad, tecnología
+
+mongo: reporte, personas
+
+arquetipo basado de los micros
+https://github.com/nanitagtj/resilient-api/tree/master
+
