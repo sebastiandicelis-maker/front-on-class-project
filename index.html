@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Reto Reactivo - Front</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="config.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Reto Reactivo - Front</h1>
+    <nav>
+      <button data-route="#/">Inicio</button>
+      <button data-route="#/admin">Admin</button>
+  <button data-route="#/persona">Persona</button>
+  <button data-route="#/tecnologia">Tecnologia</button>
+  <button data-route="#/bootcamp">Bootcamp</button>
+  <button data-route="#/reporte">Reportes</button>
+      <span id="auth-area" style="margin-left:12px"></span>
+    </nav>
+  </header>
+
+  <div id="global-status" role="status" aria-live="polite" style="display:none; padding:8px; text-align:center; background:#fee; color:#600;"></div>
+
+  <main id="app">Cargando...</main>
+
+  <footer>
+    <small>Microservicios: Persona, Bootcamp, Capacidad, Tecnologia, Reporte</small>
+  </footer>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

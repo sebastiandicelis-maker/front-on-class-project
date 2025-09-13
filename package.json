@@ -1,0 +1,17 @@
+{
+  "name": "reto-reactivo-front",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Front estático para consumir microservicios del reto",
+  "scripts": {
+    "start": "http-server ./ -p 8000 -c-1",
+  "start:proxy": "http-server ./ -p 8001 -c-1 -P http://localhost:8080",
+  "start:proxy-node": "node proxy-server.js",
+    "serve": "http-server ./ -p 8000 -c-1"
+  },
+  "devDependencies": {
+  "http-server": "^14.1.1",
+  "express": "^4.18.2",
+  "http-proxy-middleware": "^2.0.6"
+  }
+}
