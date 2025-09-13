@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "68be260bdb4305c1abfa0d9c"
+  },
+  "nombre": "Laura",
+  "edad": 28,
+  "correo": "laura@example.com",
+  "rol": "Estudiante"
+},
+{
+  "_id": {
+    "$oid": "68be260bdb4305c1abfa0d9d"
+  },
+  "nombre": "Carlos",
+  "edad": 35,
+  "correo": "carlos@example.com",
+  "rol": "Tutor"
+},
+{
+  "_id": {
+    "$oid": "68be260bdb4305c1abfa0d9e"
+  },
+  "nombre": "Ana",
+  "edad": 22,
+  "correo": "ana@example.com",
+  "rol": "Estudiante"
+}]
